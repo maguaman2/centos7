@@ -17,15 +17,15 @@ Comando:
 
 `scp origen destino`
 
-- Ejemplo :one: Copiar carpeta etc local a la capeta temporal de un equipo remoto
+- Ejemplo :one: Copiar carpeta *etc* local a la capeta temporal de un equipo remoto
 
 `scp -r /etc/ 192.168.1.1:/tmp`
 
-- Ejemplo :two: Copiar carpeta etc de una maquina remota a la capeta local (. significa donde esty actualmente)
+- Ejemplo :two: Copiar carpeta etc de una maquina remota a la capeta local (el punto (.) significa ubicación actual)
 
 `scp -r 192.168.1.1:/etc .`
 
-:warning :Este apartado es necesario para posteriormente copiar las claves entre servidores
+:warning: Este apartado es necesario para posteriormente copiar las claves entre servidores
 
 ### Crear clave pública y privada
 
